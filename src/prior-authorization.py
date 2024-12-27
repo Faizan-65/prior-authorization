@@ -6,6 +6,7 @@ from docx2pdf import convert
 from fpdf import FPDF
 import os
 
+
 def docx_to_pdf(docx_file, output_pdf):
     convert(docx_file, output_pdf)
 
