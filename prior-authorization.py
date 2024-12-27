@@ -5,6 +5,10 @@ from PIL import Image
 from docx2pdf import convert
 from fpdf import FPDF
 import os
+import streamlit as st
+
+st.write_stream("Prior Authorization")
+
 
 
 def docx_to_pdf(docx_file, output_pdf):
